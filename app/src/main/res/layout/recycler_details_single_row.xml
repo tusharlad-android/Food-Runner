@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white"
+    android:id="@+id/RestaurantDetailsLayout"
+    android:weightSum="6">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:id="@+id/detailsserialnumber"
+
+        android:text="1"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#9e9e9e"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.3"
+        android:orientation="vertical"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Food Name"
+            android:id="@+id/singledetailsfullname"
+            android:textColor="@color/black"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/singledetailsprice"
+            android:text="Rs.280"
+            android:textColor="#9e9e9e"
+            android:layout_marginTop="8dp"
+
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:layout_weight="1.9"
+        android:id="@+id/singledetailsbuttonadd"
+        android:background="@color/backgroundcolor"
+        android:layout_marginTop="15dp"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992790557871",
+    "project_id": "login-register-firebase-631d2",
+    "storage_bucket": "login-register-firebase-631d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992790557871:android:c61214ca647fc3b5f7905a",
+        "android_client_info": {
+          "package_name": "com.tushar.foodhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992790557871-3vh1gp8sart1s0fo7miu1goevr6ebkb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-affNixy75GdLP4AC91wNPpbc5xjXWMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992790557871-3vh1gp8sart1s0fo7miu1goevr6ebkb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RestaurantDetail"
+    tools:context=".Fragments.FavouritesFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="6"
+
+        >
+        <ImageView
+            android:src="@drawable/defaultrestaurant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:layout_margin="2dp"
+            android:padding="2dp"
+            android:id="@+id/imgfavResLogo"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.2"
+            android:orientation="vertical"
+            android:weightSum="3"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Restaurnat name"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:layout_weight="1.4"
+                android:paddingTop="9dp"
+                android:id="@+id/txtfavResName"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_ruppee"
+                android:text="280/person"
+                android:paddingTop="9dp"
+                android:textSize="15sp"
+                android:id="@+id/txtfavResPrice"
+
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            />
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:weightSum="3"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                />
+            <ImageView
+                android:id="@+id/imgfavResFavourites"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/baseline_favorite_border_24" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                />
+            <TextView
+                android:id="@+id/txtfavResRating"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="4.5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffea00"
+
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
